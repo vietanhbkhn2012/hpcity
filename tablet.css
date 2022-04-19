@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 94%;
+    margin: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(85,98,112);
+
+}
+
+.right{
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+  
+  }
+
+.small{
+    display: none;
+}
+
+#banner{
+    position: relative;
+    margin: 0;
+    padding: 4% 4%;
+}
+
+
+
+.bg-cl{
+    overflow: hidden;
+    padding-left: 2%; 
+    padding-right: 2%;
+}
+
+.content{
+
+    width: 100%;
+    margin-top: -2%;
+  
+}
+.mg-content{
+    margin: 2% 4% 3% 4%;
+}
+
+.mg-content h2{
+    margin-bottom: 0;
+}
+
+.row::after{
+    clear: both;
+    display: table;
+}
+
+[class*="col-t-"]{
+    float: left;
+}
+
+.col-t-1 {width: 8.33%;}
+.col-t-1 {width: 8.33%;}
+.col-t-2 {width: 16.66%;}
+.col-t-3 {width: 25%;}
+.col-t-4 {width: 33.33%;}
+.col-t-5 {width: 41.66%;}
+.col-t-6 {width: 50%;}
+.col-t-7 {width: 58.33%;}
+.col-t-8 {width: 66.66%;}
+.col-t-9 {width: 75%;}
+.col-t-10 {width: 83.33%;}
+.col-t-11 {width: 91.66%;}
+.col-t-12 {width: 100%;}
+
+.col-t-6 img{
+    width: 100%;
+    padding: 5% 5%;
+}
+
+.mg-col{
+    padding: 0 1%;
+}
+
+
+
+.mg-col h3, a{
+    margin-bottom: 0;
+}
+
+.footer{
+
+    width: 100%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 50, 50);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: rgb(50, 50, 50);
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: rgb(50, 50, 50);
+}
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(140, 140, 140);
+}
+
+a{
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif; 
+ }
