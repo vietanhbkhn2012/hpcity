@@ -11,7 +11,6 @@ body{
     overflow: hidden;
     padding-left: 5%;
     padding-right: 5%;
-
 }
 
 .right{
@@ -23,9 +22,12 @@ body{
     color: rgb(60, 60, 60);
     text-align: center;
     padding: 30px 20px;
-    text-decoration: none;
-  
+    text-decoration: none; 
   }
+.topnav a:hover{
+    font-size: 120%;
+    color: blue;
+}
 .big{
     display: none;
 }
@@ -61,6 +63,7 @@ body{
 
 [class*="col-"]{
     float: left;
+    width: 100%;
 
 }
 
@@ -80,14 +83,11 @@ body{
 
 .col-4 img{
     width: 100%;
-    padding: 3% 5%;
 }
-
 
 .bg-cl{
     overflow: hidden;
-    padding-left: 2%; 
-    padding-right: 2%;
+    padding: 0 2.5%;
 
 }
 
@@ -98,6 +98,23 @@ body{
     margin-top: -1%;
  
 }
+
+.gallery{
+    border: 1px solid gray;
+    width: 90%;
+    padding: 0px 0px 10px 0px;
+    margin: 0px auto 15px auto;
+
+}
+.gallery:hover{
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+    padding-top: 5px;
+}
+
 .mg-content{
     margin: 1% 4% 2% 4%;
 
@@ -133,5 +150,7 @@ p{
 
 a{
     color: cornflowerblue;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
  }
