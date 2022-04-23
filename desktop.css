@@ -120,6 +120,7 @@ body{
     padding: 15px 0;
     margin: 0 auto;
     background-color: white;
+    overflow: scroll;
 }
 
 .mg-content{
