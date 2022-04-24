@@ -80,7 +80,7 @@ body{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-[class*="col-"] img{
+.col-4 img{
     width: 100%;
 }
 
@@ -95,6 +95,7 @@ body{
 .bg-cl{
     overflow: hidden;
     padding: 0 2.5%;
+    width: 100%;
 
 }
 
@@ -138,7 +139,6 @@ body{
 .center{
     width: 100%;
     padding: 15px;
- 
 }
 
 h1{
