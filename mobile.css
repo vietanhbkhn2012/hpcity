@@ -3,7 +3,7 @@
 }
 
 body{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -14,7 +14,7 @@ body{
     background-color: rgb(235, 255, 230);
     position: fixed;
     top: 0;
-    width: 90%;
+    width: 100%;
     margin: auto;
   
 }
@@ -80,11 +80,11 @@ body{
 }
 
 .other-content img{
-    width: 60%;
+    width: 100%;
 }
 
 .other-content{
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 15px;
 }
