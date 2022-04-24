@@ -7,15 +7,20 @@ body{
     margin: auto;
 }
 
+#topnav{
+    position: relative;
+}
+
 .topnav {
     overflow: hidden;
     padding-left: 10%;
     padding-right: 10%;
     background-color: rgb(235, 255, 230);
-}
-
-.right{
-    float: right;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    margin: auto;
+  
 }
 
 .topnav a {
@@ -25,6 +30,12 @@ body{
     padding: 30px 20px;
     text-decoration: none; 
   }
+
+.right{
+    float: right;
+}
+
+
 .topnav a:hover{
     color: red;
 }
@@ -115,7 +126,7 @@ body{
 
 .text{
     text-align: center;
-    padding-top: 5px;
+    padding-top: 3px;
 }
 
 .comment{
