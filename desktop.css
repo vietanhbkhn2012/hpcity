@@ -7,10 +7,6 @@ body{
     margin: auto;
 }
 
-#topnav{
-    position: relative;
-}
-
 .topnav {
     overflow: hidden;
     padding-left: 10%;
