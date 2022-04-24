@@ -120,7 +120,7 @@ body{
 }
 
 .gallery:hover{
-    background-color: rgb(255, 255, 204);
+    background-color: green;
 }
 
 .text-jt{
