@@ -3,65 +3,74 @@
 }
 
 body{
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(85,98,112);
-
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(235, 255, 230);
+    position: fixed;
+    top: 0;
+    width: 90%;
+    margin: auto;
+  
 }
 
 .topnav a {
     float: left;
-    color: rgb(240, 240, 240);
+    color: rgb(60, 60, 60);
     text-align: center;
-    padding: 4%;
-    text-decoration: none;
-    font-size: 0.5%;
-  
+    padding: 10px 20px;
+    text-decoration: none; 
   }
 
-.small{
-    display: none;
+.right{
+    float: right;
+}
+
+
+.topnav a:hover{
+    color: red;
 }
 
 #banner{
     position: relative;
     margin: 0;
-    padding: 4% 4%;
+    padding: 0;
+}
+#banner h1{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    font-size: 4vw;
+    font-family: 'Updock', cursive;
 }
 
-
-
-.bg-cl{
-    overflow: hidden;
-    padding-left: 2%; 
-    padding-right: 2%;
+#banner p{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: white;
+    font-size: 3vw;
+    font-family: 'Updock', cursive;
 }
 
-.content{
-
-    width: 100%;
-    margin-top: -2%;
-  
-}
-.mg-content{
-    margin: 2% 4% 3% 4%;
-}
-
-.mg-content h2{
-    margin-bottom: 0;
+.big{
+    display: none;
 }
 
 .row::after{
     clear: both;
-    display: table;
+    display: block;
 }
 
-[class*="col-m-"]{
+[class*="col-"]{
     float: left;
+    width: 100%;
 }
 
 .col-m-1 {width: 8.33%;}
@@ -78,49 +87,96 @@ body{
 .col-m-11 {width: 91.66%;}
 .col-m-12 {width: 100%;}
 
-.col-m-12 img{
+
+.content{
     width: 100%;
-    padding: 5% 2%;
+    padding: 30px 0px;
+    margin-top: -1%;
 }
 
-.mg-col{
-    padding: 0 1%;
+.other-content img{
+    width: 60%;
 }
 
-
-
-.mg-col h3, a{
-    margin-bottom: 0;
+.other-content{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
 }
 
-.footer{
+.bg-cl{
+    overflow: hidden;
+    width: 100%;
 
+}
+
+.gallery{
+    width: 90%;
+    margin: 0 auto 20px;
+}
+
+.gallery img{
     width: 100%;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(50, 50, 50);
-    font-size: 300%;
+.gallery:hover{
+    background-color: yellow;
+}
+
+.text-jt{
+    text-align: justify;
+}
+
+.text-ct{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.comment{
+    width: 80%;
+    height: 500px;
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color: white;
+    overflow: scroll;
+}
+
+.mg-content{
+    margin: 1% 4% 2% 4%;
 }
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 300%;
-    color: rgb(50, 50, 50);
+    color: rgb(60, 60, 60);
 }
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 300%;
-    color: rgb(50, 50, 50);
-}
-p{
-   font-family: Arial, Helvetica, sans-serif;
-   color: rgb(140, 140, 140);
+    color: rgb(60, 60, 60);
 }
 
 a{
-    font-family: Arial, Helvetica, sans-serif; 
-    color: darkslateblue;
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
  }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 128, 128);
+}
+
+footer a:hover{
+    color: red;
+}
+
+.footer{
+    width: 60%;
+    margin: auto;
+}
+
+.footer div{
+    padding: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
