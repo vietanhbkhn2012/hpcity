@@ -27,9 +27,6 @@ body{
 .topnav a:hover{
     color: red;
 }
-.big{
-    display: none;
-}
 
 #banner{
     position: relative;
@@ -62,8 +59,6 @@ body{
 
 [class*="col-"]{
     float: left;
-    width: 100%;
-
 }
 
 .col-1 {width: 8.33%;}
@@ -134,12 +129,15 @@ body{
     margin: 1% 4% 2% 4%;
 }
 
-
 .f-desktop{
     width: 60%;
     margin: auto;
 }
 
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+ }
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -155,15 +153,8 @@ h3{
     color: rgb(60, 60, 60);
 }
 
-footer p{
-   font-family: Arial, Helvetica, sans-serif;
-   color: red;
-}
-
 a{
     color: cornflowerblue;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
  }
-
- 
