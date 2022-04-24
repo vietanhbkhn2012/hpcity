@@ -70,6 +70,7 @@ body{
 
 [class*="col-"]{
     float: left;
+    width: 100%;
 }
 
 .col-1 {width: 8.33%;}
@@ -85,10 +86,6 @@ body{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
-.col-4 img{
-    width: 100%;
-}
 
 
 .content{
@@ -114,11 +111,14 @@ body{
 }
 
 .gallery{
-    border: 1px solid gray;
     width: 90%;
-    margin: 0px auto 30px;
-
+    margin: 0 auto 20px;
 }
+
+.gallery img{
+    width: 100%;
+}
+
 .gallery:hover{
     width: 100%;
 }
