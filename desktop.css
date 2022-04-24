@@ -11,6 +11,7 @@ body{
     overflow: hidden;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: rgb(235, 255, 230);
 }
 
 .right{
@@ -51,6 +52,9 @@ body{
     font-family: 'Updock', cursive;
 }
 
+.big{
+    display: none;
+}
 
 .row::after{
     clear: both;
@@ -155,11 +159,11 @@ p {
     color: rgb(128, 128, 128);
 }
 
-footer p:hover, a:hover{
+footer a:hover{
     color: red;
 }
 
-.f-desktop{
+.footer{
     width: 60%;
     margin: auto;
 }
