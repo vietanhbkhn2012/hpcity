@@ -88,7 +88,10 @@ body{
     width: 100%;
     padding: 30px 0px;
     margin-top: -1%;
- 
+}
+
+.other-content{
+    padding: 15px;
 }
 
 .bg-cl{
