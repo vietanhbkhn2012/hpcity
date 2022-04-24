@@ -95,13 +95,13 @@ body{
 }
 
 .other-content img{
-    width: 60%;
+    width: 100%;
 }
 
 .other-content{
-    width: 90%;
+    width: 95%;
     margin: auto;
-    padding: 15px;
+    padding: 15px 0;
 }
 
 .bg-cl{
