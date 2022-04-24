@@ -112,7 +112,6 @@ body{
 .gallery{
     border: 1px solid gray;
     width: 90%;
-    padding: 0px 0px 10px 0px;
     margin: 0px auto 15px;
 
 }
@@ -122,7 +121,7 @@ body{
 
 .text{
     text-align: center;
-    padding-top: 3px;
+    padding: 3px 0;
 }
 
 .comment{
