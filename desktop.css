@@ -59,10 +59,6 @@ body{
     font-family: 'Updock', cursive;
 }
 
-.big{
-    display: none;
-}
-
 .row::after{
     clear: both;
     display: block;
