@@ -14,7 +14,9 @@ body{
     background-color: rgb(235, 255, 230);
     width: 100%;
     margin: auto;
-  
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .topnav a {
