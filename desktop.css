@@ -116,7 +116,7 @@ body{
 }
 
 .gallery:hover{
-    background-color: yellow;
+    transform: scale(1);
 }
 
 .text-jt{
