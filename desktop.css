@@ -103,7 +103,7 @@ body{
 .bg-cl{
     overflow: hidden;
     width: 100%;
-
+    padding-top: 15px;
 }
 
 .gallery{
